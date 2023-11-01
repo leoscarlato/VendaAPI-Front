@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import './App.css';
 import Listagem from './pages/Listagem.jsx';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
