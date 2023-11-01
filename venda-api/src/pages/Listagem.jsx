@@ -29,7 +29,6 @@ function Listagem() {
                 <h1>Listagem de Vendas</h1>
             </div>
 
-            {/* 4. Mapear os dados armazenados no estado e exibi-los */}
             <table>
                 <thead className='labels'>
                     <tr>
