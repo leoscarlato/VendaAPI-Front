@@ -1,4 +1,5 @@
 import './App.css';
+import { useState } from 'react';
 import Listagem from './pages/Listagem.jsx';
 import CriaVenda from './pages/CriaVenda.jsx';
 
