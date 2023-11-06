@@ -12,7 +12,7 @@ function Listagem() {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',
-                'token': 'wTbeaPvEZ2hjhaCKWotr'
+                'token': 'nvZPBV5Xu7SKQ8uXdiEJ'
             }
         })
         .then(response => response.json())

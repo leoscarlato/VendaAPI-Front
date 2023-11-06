@@ -160,7 +160,7 @@ function CriaVenda() {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'token': 'wTbeaPvEZ2hjhaCKWotr'
+          'token': 'nvZPBV5Xu7SKQ8uXdiEJ'
         },
         body: JSON.stringify(formData),
       });
