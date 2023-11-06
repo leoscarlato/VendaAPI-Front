@@ -1,7 +1,8 @@
-import { useState } from 'react';
 import './App.css';
+import { useState } from 'react';
 import Listagem from './pages/Listagem.jsx';
-import Login from './pages/Login.jsx';
+import CriaVenda from './pages/CriaVenda.jsx';
+
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -10,12 +11,14 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/vendas" element={<Listagem />} />
-        <Route path="/login" element={<Login />} />
-
+        <Route path="/vendas" element={<Listagem />} />\
+        <Route path="/criavenda" element={<CriaVenda />} />\
       </Routes>
     </Router>
+    
+    
   );
+  
 }
 
 export default App;
